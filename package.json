@@ -1,5 +1,4 @@
 {
-  "name": "@brionmario-experimental/changesets-mono-repo-workspace",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -13,5 +12,6 @@
     "tsconfig": "workspace:*",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10"
+  "packageManager": "pnpm@8.6.10",
+  "name": "changesets-mono-repo"
 }
