@@ -2,10 +2,13 @@
   "private": true,
   "name": "@brionmario-experimental/changesets-mono-repo",
   "scripts": {
+    "changeset": "changeset",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "publish:packages": "changeset publish",
+    "version:packages": "changeset version"
   },
   "devDependencies": {
     "eslint": "^8.47.0",
