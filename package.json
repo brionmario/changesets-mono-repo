@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "@brionmario-experimental/changesets-mono-repo",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -9,9 +10,8 @@
   "devDependencies": {
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
-    "tsconfig": "workspace:*",
+    "@brionmario-experimental/changesets-mono-repo-tsconfig": "workspace:*",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "changesets-mono-repo"
+  "packageManager": "pnpm@8.6.10"
 }

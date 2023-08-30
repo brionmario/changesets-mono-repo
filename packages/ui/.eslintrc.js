@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["custom/react-internal"],
+  extends: ["@brionmario-experimental/eslint-config-changesets-mono-repo/react-internal"],
 };

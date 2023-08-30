@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@brionmario-experimental/changesets-mono-repo-ui",
   "version": "0.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -13,9 +13,9 @@
     "@types/node": "^20.5.2",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "eslint-config-custom": "workspace:*",
+    "@brionmario-experimental/eslint-config-changesets-mono-repo": "workspace:*",
     "react": "^18.2.0",
-    "tsconfig": "workspace:*",
+    "@brionmario-experimental/changesets-mono-repo-tsconfig": "workspace:*",
     "typescript": "^4.5.2"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-custom",
+  "name": "@brionmario-experimental/eslint-config-changesets-mono-repo",
   "license": "MIT",
   "version": "0.0.0",
   "private": true,
