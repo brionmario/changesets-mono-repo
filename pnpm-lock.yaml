@@ -433,7 +433,7 @@ packages:
       meow: 6.1.1
       outdent: 0.5.0
       p-limit: 2.3.0
-      preferred-pm: 3.0.3
+      preferred-pm: 3.1.1
       resolve-from: 5.0.0
       semver: 7.5.4
       spawndamnit: 2.0.0
@@ -3864,8 +3864,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /preferred-pm@3.0.3:
-    resolution: {integrity: sha512-+wZgbxNES/KlJs9q40F/1sfOd/j7f1O9JaHcW5Dsn3aUUOZg3L2bjpVUcKV2jvtElYfoTuQiNeMfQJ4kwUAhCQ==}
+  /preferred-pm@3.1.1:
+    resolution: {integrity: sha512-CsZgOVLKHifdoRu2y66P1s6oLb2WfT5Njkcgi80I/52FWTTVkWG6z0Z13vPkXC4hsT0nMrYXqX30buH8+D2eRQ==}
     engines: {node: '>=10'}
     dependencies:
       find-up: 5.0.0
