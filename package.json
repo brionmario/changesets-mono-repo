@@ -2,16 +2,22 @@
   "private": true,
   "name": "@brionmario-experimental/changesets-mono-repo",
   "scripts": {
+    "changeset": "changeset",
     "build": "turbo run build",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "publish:packages": "changeset publish",
+    "version:packages": "changeset version"
   },
   "devDependencies": {
+    "@brionmario-experimental/changesets-mono-repo-tsconfig": "workspace:*",
     "eslint": "^8.47.0",
     "prettier": "^3.0.2",
-    "@brionmario-experimental/changesets-mono-repo-tsconfig": "workspace:*",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10"
+  "packageManager": "pnpm@8.6.10",
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  }
 }
