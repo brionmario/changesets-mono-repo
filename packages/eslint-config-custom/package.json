@@ -1,7 +1,7 @@
 {
   "name": "@brionmario-experimental/eslint-config-changesets-mono-repo",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "devDependencies": {
     "@vercel/style-guide": "^4.0.2",
